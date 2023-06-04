@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mediafiles-annotation"
+version = "0.1.0"
+description = "This project is educational research work in MEPHi. It should allow annotating media files for further use as datasets for machine learning."
+authors = ["Danila Anisimov <da.anisimov@bi.zone>"]
+readme = "README.md"
+packages = [{include = "mediafiles_annotation"}]
+
+[tool.poetry.dependencies]
+python = "3.9.16"
+django = "^4.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
